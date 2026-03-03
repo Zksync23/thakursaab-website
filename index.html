@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThakurSaab — Automation & Crypto Expert</title>
+    <meta name="description"
+        content="Kiransinh Thakur (ThakurSaab) — Python Automation Expert, Telegram Bot Developer, Web Scraping Specialist & Crypto Airdrops Automation. Building the future with code.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Particle Canvas Background -->
+    <canvas id="particles"></canvas>
+
+    <!-- ====== NAVIGATION ====== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-icon"><i class="fas fa-terminal"></i></span>
+                <span class="logo-text">THAKUR<span class="logo-accent">SAAB</span></span>
+            </a>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#hero" class="nav-link active">HOME</a></li>
+                <li><a href="#about" class="nav-link">ABOUT</a></li>
+                <li><a href="#skills" class="nav-link">EXPERTISE</a></li>
+                <li><a href="#services" class="nav-link">SERVICES</a></li>
+                <li><a href="#channel" class="nav-link">CHANNEL</a></li>
+                <li><a href="#contact" class="nav-link">CONTACT</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ====== HERO SECTION ====== -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-overlay"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-accent-line reveal-up"></div>
+                <h1 class="hero-title reveal-up">
+                    THAKUR<span class="title-accent">SAAB</span>
+                </h1>
+                <p class="hero-subtitle reveal-up">
+                    <span class="typing-text" id="typing-text"></span><span class="cursor">|</span>
+                </p>
+                <p class="hero-description reveal-up">
+                    Building powerful automation tools, Telegram bots, and crypto solutions.
+                    Turning complex ideas into scalable, efficient scripts that work 24/7.
+                </p>
+                <div class="hero-buttons reveal-up">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> CONTACT ME
+                    </a>
+                    <a href="https://t.me/gujjucryptto" target="_blank" class="btn btn-outline">
+                        <i class="fab fa-telegram"></i> JOIN CHANNEL
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Overlapping Cards (OHI-style) -->
+        <div class="hero-overlap-cards">
+            <div class="overlap-card overlap-card-light reveal-up">
+                <div class="overlap-accent-line"></div>
+                <h3>AUTOMATION<br>EXPERT</h3>
+                <p>Custom Python scripts & Telegram bots that run on autopilot — built for performance.</p>
+                <div class="overlap-buttons">
+                    <a href="#services" class="btn btn-sm btn-outline-dark">VIEW SERVICES</a>
+                    <a href="#skills" class="btn btn-sm btn-outline-dark">MY SKILLS</a>
+                </div>
+            </div>
+            <div class="overlap-card overlap-card-dark reveal-up" style="animation-delay: 0.2s;">
+                <div class="overlap-accent-line"></div>
+                <h3>CRYPTO<br>SPECIALIST</h3>
+                <p>Airdrop automation, token scanners & DeFi tools — maximizing opportunities in Web3.</p>
+                <div class="overlap-buttons">
+                    <a href="https://t.me/gujjucryptto" target="_blank" class="btn btn-sm btn-outline-light">JOIN
+                        CHANNEL</a>
+                    <a href="#contact" class="btn btn-sm btn-outline-light">HIRE ME</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator reveal-up">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>SCROLL</span>
+        </div>
+    </section>
+
+    <!-- ====== ABOUT SECTION ====== -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image-col reveal-left">
+                    <div class="about-photo-wrapper">
+                        <img src="assets/photo.jpg" alt="Kiransinh Thakur — ThakurSaab" class="about-photo"
+                            loading="lazy">
+                        <div class="photo-border-deco"></div>
+                    </div>
+                    <div class="experience-badge">
+                        <span class="exp-number" data-count="3">0</span><span class="exp-plus">+</span>
+                        <span class="exp-text">YEARS<br>EXPERIENCE</span>
+                    </div>
+                </div>
+                <div class="about-text-col reveal-right">
+                    <div class="section-label">
+                        <div class="label-line"></div>
+                        <span>ABOUT ME</span>
+                    </div>
+                    <h2 class="section-heading">WHO IS <span class="heading-accent">THAKURSAAB</span>?</h2>
+                    <p class="about-tagline">Automation Expert | Bot Developer | Crypto Specialist</p>
+                    <p>
+                        I'm <strong>Kiransinh Thakur</strong>, known as <strong>ThakurSaab</strong> in the automation
+                        and crypto community.
+                        I specialize in building powerful Python scripts, Telegram bots, and web scraping tools that
+                        help businesses
+                        and individuals automate their workflows.
+                    </p>
+                    <p>
+                        My Telegram channel <strong>"Crypto Airdrops & Automation Scripts"</strong> serves
+                        <strong>659+ members</strong> with tested tools and resources to maximize crypto opportunities.
+                    </p>
+                    <div class="about-info-grid">
+                        <div class="info-item">
+                            <i class="fas fa-user"></i>
+                            <div><strong>Name</strong><span>Kiransinh Thakur</span></div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div><strong>Email</strong><span>kiranthakor01432@gmail.com</span></div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div><strong>Location</strong><span>Gujarat, India</span></div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-briefcase"></i>
+                            <div><strong>Freelance</strong><span>Available</span></div>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> GET IN TOUCH
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== STATS BAR ====== -->
+    <section class="stats-bar" id="stats-bar">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item reveal-up">
+                    <span class="stat-number" data-count="659">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">SUBSCRIBERS</span>
+                </div>
+                <div class="stat-item reveal-up" style="animation-delay: 0.1s;">
+                    <span class="stat-number" data-count="50">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">PROJECTS</span>
+                </div>
+                <div class="stat-item reveal-up" style="animation-delay: 0.2s;">
+                    <span class="stat-number" data-count="100">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">HAPPY CLIENTS</span>
+                </div>
+                <div class="stat-item reveal-up" style="animation-delay: 0.3s;">
+                    <span class="stat-number" data-count="3">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">YEARS EXPERIENCE</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== SKILLS / EXPERTISE SECTION ====== -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <div class="section-label reveal-up">
+                <div class="label-line"></div>
+                <span>MY EXPERTISE</span>
+            </div>
+            <h2 class="section-heading reveal-up">WHAT I <span class="heading-accent">SPECIALIZE</span> IN</h2>
+
+            <div class="skills-grid">
+                <div class="skill-card reveal-up" style="--card-color: #00c0f3;">
+                    <div class="skill-card-bg" style="background: linear-gradient(135deg, #0c2340, #1a4a7a);"></div>
+                    <div class="skill-card-content">
+                        <div class="skill-icon"><i class="fab fa-python"></i></div>
+                        <h3>PYTHON AUTOMATION</h3>
+                        <p>End-to-end automation scripts for business workflows, data processing, and task scheduling.
+                        </p>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill" data-width="95"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card reveal-up" style="--card-color: #0088cc; animation-delay: 0.1s;">
+                    <div class="skill-card-bg" style="background: linear-gradient(135deg, #0a2a4a, #1a5a8a);"></div>
+                    <div class="skill-card-content">
+                        <div class="skill-icon"><i class="fab fa-telegram"></i></div>
+                        <h3>TELEGRAM BOTS</h3>
+                        <p>Custom bots for notifications, automation, group management, and crypto alerts.</p>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill" data-width="92"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card reveal-up" style="--card-color: #00d4aa; animation-delay: 0.2s;">
+                    <div class="skill-card-bg" style="background: linear-gradient(135deg, #0c3a2a, #1a6a5a);"></div>
+                    <div class="skill-card-content">
+                        <div class="skill-icon"><i class="fas fa-spider"></i></div>
+                        <h3>WEB SCRAPING</h3>
+                        <p>Extracting data from any website with anti-detection, proxy rotation, and structured output.
+                        </p>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill" data-width="90"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card reveal-up" style="--card-color: #7c3aed; animation-delay: 0.3s;">
+                    <div class="skill-card-bg" style="background: linear-gradient(135deg, #1a0a3a, #3a2a6a);"></div>
+                    <div class="skill-card-content">
+                        <div class="skill-icon"><i class="fas fa-code"></i></div>
+                        <h3>SCRIPT DEVELOPMENT</h3>
+                        <p>Custom tools, scanners, and automated workflows tailored to your specific needs.</p>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill" data-width="88"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card reveal-up" style="--card-color: #f59e0b; animation-delay: 0.4s;">
+                    <div class="skill-card-bg" style="background: linear-gradient(135deg, #3a2a0a, #6a5a1a);"></div>
+                    <div class="skill-card-content">
+                        <div class="skill-icon"><i class="fas fa-coins"></i></div>
+                        <h3>CRYPTO AIRDROPS</h3>
+                        <p>Automated airdrop farming, token scanners, and DeFi opportunity maximization tools.</p>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill" data-width="85"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-card reveal-up" style="--card-color: #ef4444; animation-delay: 0.5s;">
+                    <div class="skill-card-bg" style="background: linear-gradient(135deg, #3a0a0a, #6a2a2a);"></div>
+                    <div class="skill-card-content">
+                        <div class="skill-icon"><i class="fas fa-server"></i></div>
+                        <h3>VPS MANAGEMENT</h3>
+                        <p>Server setup, deployment, monitoring, and 24/7 script hosting on Linux VPS.</p>
+                        <div class="skill-bar">
+                            <div class="skill-bar-fill" data-width="87"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== SERVICES SECTION ====== -->
+    <section class="section services" id="services">
+        <div class="container">
+            <div class="section-label reveal-up">
+                <div class="label-line"></div>
+                <span>WHAT I OFFER</span>
+            </div>
+            <h2 class="section-heading reveal-up">MY <span class="heading-accent">SERVICES</span></h2>
+
+            <div class="services-grid">
+                <div class="service-card reveal-up">
+                    <div class="service-number">01</div>
+                    <div class="service-icon"><i class="fab fa-telegram"></i></div>
+                    <h3>CUSTOM TELEGRAM BOTS</h3>
+                    <p>Feature-rich Telegram bots with inline keyboards, payment integration, group management,
+                        auto-posting, and real-time crypto alerts.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Notification Bots</li>
+                        <li><i class="fas fa-check"></i> Trading Alert Bots</li>
+                        <li><i class="fas fa-check"></i> Group Management</li>
+                    </ul>
+                </div>
+                <div class="service-card reveal-up" style="animation-delay: 0.1s;">
+                    <div class="service-number">02</div>
+                    <div class="service-icon"><i class="fas fa-robot"></i></div>
+                    <h3>AUTOMATION SCRIPTS</h3>
+                    <p>End-to-end Python automation for repetitive tasks, data processing, file management, API
+                        integration and scheduled operations.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Task Automation</li>
+                        <li><i class="fas fa-check"></i> API Integration</li>
+                        <li><i class="fas fa-check"></i> Cron Scheduling</li>
+                    </ul>
+                </div>
+                <div class="service-card reveal-up" style="animation-delay: 0.2s;">
+                    <div class="service-number">03</div>
+                    <div class="service-icon"><i class="fas fa-database"></i></div>
+                    <h3>DATA SCRAPING</h3>
+                    <p>High-performance web scrapers with anti-detection, proxy rotation, CAPTCHA solving and structured
+                        data export in any format.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> E-Commerce Scrapers</li>
+                        <li><i class="fas fa-check"></i> Social Media Data</li>
+                        <li><i class="fas fa-check"></i> Anti-Detection</li>
+                    </ul>
+                </div>
+                <div class="service-card reveal-up" style="animation-delay: 0.3s;">
+                    <div class="service-number">04</div>
+                    <div class="service-icon"><i class="fas fa-server"></i></div>
+                    <h3>VPS SETUP & DEPLOY</h3>
+                    <p>Complete Linux VPS configuration, script deployment, monitoring, auto-restart and 24/7 hosting
+                        with performance optimization.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Server Configuration</li>
+                        <li><i class="fas fa-check"></i> Script Deployment</li>
+                        <li><i class="fas fa-check"></i> 24/7 Monitoring</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== TELEGRAM CHANNEL SECTION ====== -->
+    <section class="section channel" id="channel">
+        <div class="channel-bg-overlay"></div>
+        <div class="container">
+            <div class="channel-grid">
+                <div class="channel-info reveal-left">
+                    <div class="section-label">
+                        <div class="label-line label-line-light"></div>
+                        <span>TELEGRAM CHANNEL</span>
+                    </div>
+                    <h2 class="section-heading section-heading-light">JOIN <span
+                            class="heading-accent">@GUJJUCRYPTTO</span></h2>
+                    <p class="channel-description">
+                        Get exclusive access to premium crypto airdrops, automation scripts,
+                        bot updates, and Web3 opportunities — all for free.
+                    </p>
+                    <div class="channel-features">
+                        <div class="channel-feature">
+                            <i class="fas fa-gift"></i>
+                            <div>
+                                <strong>Free Airdrops</strong>
+                                <span>Tested & verified crypto airdrops daily</span>
+                            </div>
+                        </div>
+                        <div class="channel-feature">
+                            <i class="fas fa-bolt"></i>
+                            <div>
+                                <strong>Daily Updates</strong>
+                                <span>New scripts, tools & opportunities</span>
+                            </div>
+                        </div>
+                        <div class="channel-feature">
+                            <i class="fas fa-bell"></i>
+                            <div>
+                                <strong>Bot Alerts</strong>
+                                <span>Instant notifications for new drops</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="https://t.me/gujjucryptto" target="_blank" class="btn btn-primary btn-lg">
+                        <i class="fab fa-telegram"></i> JOIN NOW — IT'S FREE
+                    </a>
+                </div>
+                <div class="channel-stats-col reveal-right">
+                    <div class="channel-card">
+                        <div class="channel-card-header">
+                            <i class="fab fa-telegram"></i>
+                            <span>@gujjucryptto</span>
+                        </div>
+                        <div class="channel-card-body">
+                            <div class="channel-stat">
+                                <span class="channel-stat-number" data-count="659">0</span><span
+                                    class="stat-plus">+</span>
+                                <span class="channel-stat-label">MEMBERS</span>
+                            </div>
+                            <div class="channel-stat">
+                                <span class="channel-stat-number" data-count="24">0</span><span
+                                    class="stat-plus">/7</span>
+                                <span class="channel-stat-label">ACTIVE</span>
+                            </div>
+                        </div>
+                        <div class="channel-card-footer">
+                            <div class="live-badge">
+                                <span class="live-dot"></span> LIVE
+                            </div>
+                            <span>Crypto Airdrops & Automation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== CONTACT SECTION ====== -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-label reveal-up">
+                <div class="label-line"></div>
+                <span>GET IN TOUCH</span>
+            </div>
+            <h2 class="section-heading reveal-up">LET'S <span class="heading-accent">WORK TOGETHER</span></h2>
+
+            <div class="contact-grid">
+                <div class="contact-info-col reveal-left">
+                    <p class="contact-intro">Have a project in mind? Need a Telegram bot or automation script? Let's
+                        talk!</p>
+                    <div class="contact-cards">
+                        <a href="mailto:kiranthakor01432@gmail.com" class="contact-card">
+                            <div class="contact-card-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <strong>EMAIL</strong>
+                                <span>kiranthakor01432@gmail.com</span>
+                            </div>
+                        </a>
+                        <a href="https://t.me/kittu2141" target="_blank" class="contact-card">
+                            <div class="contact-card-icon"><i class="fab fa-telegram"></i></div>
+                            <div>
+                                <strong>TELEGRAM DM</strong>
+                                <span>@kittu2141</span>
+                            </div>
+                        </a>
+                        <a href="https://x.com/kittu2141" target="_blank" class="contact-card">
+                            <div class="contact-card-icon"><i class="fab fa-x-twitter"></i></div>
+                            <div>
+                                <strong>TWITTER / X</strong>
+                                <span>@kittu2141</span>
+                            </div>
+                        </a>
+                        <a href="https://t.me/gujjucryptto" target="_blank" class="contact-card">
+                            <div class="contact-card-icon"><i class="fab fa-telegram"></i></div>
+                            <div>
+                                <strong>CHANNEL</strong>
+                                <span>@gujjucryptto (659+ subs)</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form-col reveal-right">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">YOUR NAME</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">YOUR EMAIL</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">SUBJECT</label>
+                            <input type="text" id="subject" name="subject" placeholder="Project Inquiry" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">MESSAGE</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..."
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg btn-full">
+                            <i class="fas fa-paper-plane"></i> SEND MESSAGE
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ====== FOOTER ====== -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#hero" class="nav-logo">
+                        <span class="logo-icon"><i class="fas fa-terminal"></i></span>
+                        <span class="logo-text">THAKUR<span class="logo-accent">SAAB</span></span>
+                    </a>
+                    <p>Building powerful automation tools and crypto solutions. Turning ideas into scalable scripts.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>QUICK LINKS</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Expertise</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#channel">Channel</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>CONNECT</h4>
+                    <div class="social-icons">
+                        <a href="https://t.me/kittu2141" target="_blank" aria-label="Telegram"><i
+                                class="fab fa-telegram"></i></a>
+                        <a href="https://x.com/kittu2141" target="_blank" aria-label="Twitter"><i
+                                class="fab fa-x-twitter"></i></a>
+                        <a href="mailto:kiranthakor01432@gmail.com" aria-label="Email"><i
+                                class="fas fa-envelope"></i></a>
+                        <a href="https://t.me/gujjucryptto" target="_blank" aria-label="Channel"><i
+                                class="fas fa-bullhorn"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ThakurSaab. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
